@@ -1,0 +1,150 @@
+
+.navbar a:hover{
+    color: #cccccc;
+}
+
+.navbar a{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.navbar img{
+    height: 80px;
+    width: 80px;
+}
+#firstContainer{
+    padding: 50px;
+    color: white;
+}
+
+#firstContainer h1{
+    text-align: center;
+    font-size: 50px;
+}
+#firstContainer h3{
+    margin-top: 40px;
+    font-size: 25px;
+}
+#firstContainer p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#firstContainer img{
+    padding: 40px;
+    width: 500px;
+    height: 400px;
+    margin-left: -90px;
+}    
+
+#secondContainer{
+    margin-top: 70px;P
+    padding: 50px;
+}
+
+#secondContainer p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+}
+
+#secondContainer img{
+    max-width: 600px;
+    height: 600px;
+}
+
+
+#thirdcontainer{
+    padding: 50px;
+}
+
+#thirdcontainer h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+#thirdcontainer img{
+    border: 3px solid white; 
+    width: 260px;
+    max-height: 300px;
+    margin-bottom: 40px;
+    
+}
+
+
+#fourthContainer{
+    padding: 70px;
+}
+
+#fourthContainer h1{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.ikons{
+    text-align: center; 
+}
+
+.ikons a{
+    font-size: 32px;
+    color: black;
+}
+
+.ikons a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+#firstContainer img{
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    margin-left: -50px;
+}    
+
+  #secondContainer img{
+    max-width: 300px;
+    height: 300px;
+      margin-top: 20px;
+}
+    #thirdcontainer img{
+    margin-left: 40px;
+}
+}
+
+@media only screen and (max-width: 390px) {
+    
+#firstContainer img{
+    padding: 50px;
+    width: 400px;
+    height: 350px;
+    margin-left: -88px;
+}    
+
+  #secondContainer img{
+    max-width: 300px;
+    height: 300px;
+      margin-top: 20px;
+}
+    #thirdcontainer img{
+    margin-left: 16px;
+}
+}
